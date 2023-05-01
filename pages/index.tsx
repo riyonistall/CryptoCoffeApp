@@ -52,13 +52,13 @@ const Home: NextPage = () => {
           </Flex>
 
         <Text fontSize ={"2xl"} py={"10px"}>Name:</Text>
-        <Input placeholder="Riyon" maxLength={"16"} 
+        <Input placeholder="Riyon"
         value={name} 
         onChange={handleNameChange} 
         />
 
         <Text fontSize ={"2xl"} py={"10px"}>Message:</Text>
-        <Input placeholder="Hello Sup?" maxLength={"80"} 
+        <Input placeholder="Hello Sup?" 
         value={messgae} 
         onChange={handleMessageChange} 
         />
